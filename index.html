@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Francisco's Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" media="screen and (min-width:600px)" href="css/styles.css">
@@ -12,51 +14,63 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6"><img src="./bootstrap-prestructure_files/images/francisco-headshot.png" class="img-responsive img-circle"></div>
-        <div class="col-md-6 profile">
-          <h1 class="profile-name">Francisco Echeverria</h1>
-          <h3 class="profile-title">Full-Stack Web Dev</h3>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"><img src="./bootstrap-prestructure_files/images/francisco-headshot.png" class="img-responsive img-circle"></div>
+          <div class="col-md-6 profile">
+            <h1 class="profile-name">Francisco Echeverria</h1>
+            <h3 class="profile-title">Full-Stack Web Dev</h3>
+          </div>
         </div>
       </div>
-      <div class="row">
+    </header>
+    <main>
+      <div class="container">  
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+          <br/>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="./bootstrap-prestructure_files/abstract.jpg" class="img-responsive">
+          </div>
+        </div>
+        <br>
+        <div>
+            <p>Welcome to my portfolio page. I will be adding projects on here as I finish them. Come back for more!</p>
+        </div>
         <div class="col-md-12">
-          <hr>
+          <h2>Featured Work</h2>
         </div>
-        <br/>
-      <div class="row">
-        <div class="col-md-12">
-          <img src="./bootstrap-prestructure_files/abstract.jpg" class="img-responsive">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <img src="./bootstrap-prestructure_files/nature-1.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
+            <h3 class="text-uppercase">Appify</h3>
+            <p><a href="http://github.com/">Link to project</a></p>
+          </div>
+          <div class="col-md-6" data-toggle="modal" data-target="#project2">
+            <img src="./bootstrap-prestructure_files/nature-2.jpg" class="img-responsive">
+            <h3 class="text-uppercase">Spatify</h3>
+            <p><a href="http://github.com/">Link to project</a></p>
+          </div>
         </div>
-      </div>
-      <div class="col-md-12">
-        <h2>Featured Work</h2>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-6">
-          <img src="./bootstrap-prestructure_files/nature-1.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
-          <h3 class="text-uppercase">Appify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
-        </div>
-        <div class="col-md-6" data-toggle="modal" data-target="#project2">
-          <img src="./bootstrap-prestructure_files/nature-2.jpg" class="img-responsive">
-          <h3 class="text-uppercase">Spatify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
-        </div>
-      </div>
-      <div class="row text-center" data-toggle="modal" data-target="#project3">
-        <div class="col-md-6">
-          <img src="./bootstrap-prestructure_files/nature-3.jpg" class="img-responsive">
-          <h3 class="text-uppercase">Applify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
-        </div>
-        <div class="col-md-6" data-toggle="modal" data-target="#project4">
-          <img src="./bootstrap-prestructure_files/nature-4.jpg" class="img-responsive">
-          <h3 class="text-uppercase">Cappify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
+        <div class="row text-center" data-toggle="modal" data-target="#project3">
+          <div class="col-md-6">
+            <img src="./bootstrap-prestructure_files/nature-3.jpg" class="img-responsive">
+            <h3 class="text-uppercase">Applify</h3>
+            <p><a href="http://github.com/">Link to project</a></p>
+          </div>
+          <div class="col-md-6" data-toggle="modal" data-target="#project4">
+            <img src="./bootstrap-prestructure_files/nature-4.jpg" class="img-responsive">
+            <h3 class="text-uppercase">Cappify</h3>
+            <p><a href="http://github.com/">Link to project</a></p>
+          </div>
         </div>
       </div>
+    </main>  
+    <footer>
       <div class="row text-center">
         <div class="col-md-12 social-logo">
             <a href="https://www.facebook.com/francisco.contreras.714" target="_blank"><span class="entypo-facebook"></span></a>
@@ -66,7 +80,7 @@
             <a href="https://plus.google.com/u/1/116597621852702608403" target="_blank"><span class="entypo-gplus"></span></a>
         </div>
       </div>
-    </div>
+    </footer>
         <!-- Modal Project 1-->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
